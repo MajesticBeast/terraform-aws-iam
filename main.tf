@@ -6,7 +6,7 @@
 # Created: 2019-08-01
 # Description: This module creates an IAM Resource in AWS
 
-resource "aws_iam_user" "timmay" {
+resource "aws_iam_user" "timay" {
   name = var.name
 
   tags = var.tags
